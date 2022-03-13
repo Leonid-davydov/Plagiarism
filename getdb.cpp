@@ -6,11 +6,11 @@
 
 using namespace std;
 
-const char server[] = "";
-const char user[] = "";
-const char password[] = "";
-const char database[] = "";
-const char sqlQuery[] = "";
+const char server[] = "textaidatabase.chqsukgflvdq.us-east-1.rds.amazonaws.com";
+const char user[] = "admin";
+const char password[] = "BESETU39zero123";
+const char database[] = "TextAIDatabase";
+const char sqlQuery[] = "SELECT Id, Content FROM EDocs WHERE Type IN (2, 3);";
 
 string getDb()
 {
